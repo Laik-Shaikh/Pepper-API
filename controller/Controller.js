@@ -2,7 +2,7 @@ const Model = require("../models/Model");
 const grid = require('gridfs-stream');
 const mongoose = require('mongoose');
 
-const url = 'http://localhost:7000/admin';   // server url
+const url = 'https://pepper-api.onrender.com/admin';   // server url
 
 let gfs, gridfsBucket;
 const conn = mongoose.connection;
